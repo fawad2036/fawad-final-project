@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizzeria Restaurant</title>
+    <link 
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" 
+    rel="stylesheet" 
+  />
+
+    <link rel="stylesheet" href="styles.css" />
+    
+  </head>
+  <body>
+    <header id="header">
+      <nav>
+        <ul class="dropdown-content">
+          <li><a onclick="handleClickClose()" href="#home">Home</a></li>
+          <li><a onclick="handleClickClose()" href="#about">About</a></li>
+          <li><a onclick="handleClickClose()" href="#menu">Menu</a></li>
+          <li><a onclick="handleClickClose()" href="#contact">Contact</a></li>
+          <li><a onclick="handleClickClose()" href="#card">Card</a></li>
+        </ul>
+
+
+        <div class="dropdown">
+          <button class="dropbtn">Menu</button>
+          <ul class="dropdown-content">
+            <li ><a onclick="handleClickClose()" href="#home">Home</a></li>
+            <li ><a onclick="handleClickClose()" href="#about">About</a></li>
+            <li ><a onclick="handleClickClose()" href="#menu">Menu</a></li>
+            <li ><a onclick="handleClickClose()" href="#contact">Contact</a></li>
+            <li ><a onclick="handleClickClose()" href="#card">Card</a></li>
+        </ul>
+        </div>             
+
+
+
+
+      </nav>
+    </header>
+
+    <div onclick="handleClick()" class="navIcon">
+        <img src="./imgess/NavIcons.png" alt="">
+    </div>
+    
+    <section id="home">
+      <h1 class="h1">
+        <br /><br /><br /><br /><br /><br /><br /><br />Welcome to Our DoDo
+        pizza
+      </h1>
+      <p>Experience the best pizza in town!</p>
+    </section>
+    
+    <!--menu  -->
+    <section id="menu" class="text-gray-600 body-font">
+      <div class="menu">
+        <h1 class="menu-H1"> Menu</h1>
+      <div class="menuDiv">
+        <!-- Start  ca -->
+        <div class="menu_div_chiled">
+          <div class="img_div">
+            <img class="menu_Img" src="./img/menu 1.avif" alt="" />
+          </div>
+          
+          <div class="menu_text">
+            <h1> Chicken ranch</h1>
+            <p>
+              30, traditional dough 30, 660 g
+              Chicken, chicken ham, ranch sauce, tomatoes, garlic, mozzarella cheese
+            </p>
+          </div>
+        </div>
+        
+        <!-- end  of   card  -->
+        <!-- Start  ca -->
+        <div class="menu_div_chiled">
+          <div class="img_div">
+            <img class="menu_Img" src="./img/menu 2.avif" alt="" />
+          </div>
+          
+          <div class="menu_text">
+            <h1> BBQ chicken</h1>
+            <p>
+              30, traditional dough 30
+              Hunger doesn't stand a chance when you have BBQ Chicken Pizza in front of you. Slices of ham, stretchy mozzarella,
+              red onion,
+            </p>
+          </div>
+        </div>
+        
+        <!-- end  of   card  -->
+        <!-- Start  ca -->
+        <div class="menu_div_chiled">
+          <div class="img_div">
+            <img class="menu_Img" src="./img/menu3.avif" width="100" alt="" >
+          </div>
+          
+          <div class="menu_text">
+            <h1> BBQ sausages </h1>
+            <p>
+              30, traditional dough 30
+              Spicy chorizo, barbecue sauce, tomatoes,
+              red onion, mozzarella, signature tomato sauce
+            </p>
+          </div>
+        </div>
+        
+        <!-- end  of   card  -->
+        <!-- Start  ca -->
+        <div class="menu_div_chiled">
+          <div class="img_div">
+            <img class="menu_Img" src="./img/menu 4.avif" alt="" />
+          </div>
+          
+          <div class="menu_text">
+            <h1> Pizza Mishka </h1>
+            <p>
+              25, traditional dough 30, 450 g
+              Mozzarella cheese, tomato sauce, chicken, tomatoes, oven potatoes
+            </p>
+          </div>
+        </div>
+        </div>
+
+        <!-- end  of   card  -->
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="feedback-section">
+      <div class="map-overlay"></div>
+      <div id="Contact" class="container">
+        <div class="feedback-container">
+          <h2 class="feedback-title">Feedback</h2>
+          <p class="feedback-description">
+            Post-ironic portland shabby chic echo park, banjo fashion axe
+          </p>
+          <div class="input-group">
+            <label for="email" class="input-label">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="input-field"
+              placeholder="Your email address"
+            />
+          </div>
+          <div class="input-group">
+            <label for="message" class="input-label">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              class="input-field textarea"
+              placeholder="Your message"
+            ></textarea>
+          </div>
+          <button class="submit-button">Send</button>
+          <p class="feedback-note">
+            Chicharrones blog helvetica normcore iceland tousled brook viral
+            artisan.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About  -->
+
+    <section id="about" class="text-section">
+      <div class="container">
+        <div class="content">
+          <h1 class="title">
+            About 
+          </h1>
+          <p class="description">
+
+            Dodo Pizza is a Russian pizza delivery franchise founded in 2011 by Fyodor Ovchinnikov. The corporation was
+            founded in Syktyvkar, Russia. Its headquarters are also in Syktyvkar, as well as in Moscow.
+    
+            As of April 2024, the company has 841 pizzerias in
+            Russia and 92 in 17 other countries (Kazakhstan, Tajikistan,
+            United Kingdom, Cyprus, Germany, Nigeria, Vietnam,[1] China, Estonia, Lithuania, Romania, Slovenia, Belarus,
+            Uzbekistan, Kyrgyzstan, UAE and Poland[2]). It's the largest pizza chain in
+            Russia and Kazakhstan and one of Europe's fastest-growing restaurant chains.[3]
+          </p>
+          <div class="button-group">
+            <button class="btn btn-primary">Find Us</button>
+          </div>
+        </div>
+        <div class="image-container">
+          <img class="hero-image" alt="hero" src="./img/pizza BA.jpg" />
+        </div>
+      </div>
+    </section>  
+
+    <section id="card">
+      <h2>Contact</h2>
+      <div class="section_4_mianDiv">
+
+
+        <span><i class="ri-facebook-fill"></i></span> 
+        <span><i class="ri-twitter-fill"></i></span> 
+        <span><i class="ri-instagram-line"></i></span> 
+        <span><i class="ri-linkedin-fill"></i></span> 
+      </div>
+
+<div class="h4">
+  <p>
+    Phone Number: 992004401859  Eamil:Fawadsediqi378@gamail.com 
+  </p>
+
+</div>
+
+      </div>
+      <script>
+        function handleClick() {
+          const navIcon = document.querySelector('#header');
+          navIcon.style.display = "block";
+        }
+  
+        function handleClickClose() {
+          const dropdown = document.querySelector('#header');
+          dropdown.style.display = "none";
+        }
+      </script>
+  </body>
+</html>
